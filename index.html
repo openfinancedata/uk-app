@@ -35,14 +35,18 @@
         <caption>OFD Data</caption>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Link</th>
+            <th>Date</th>
+            <th>Domain</th>
             <th>Description</th>
+            <th>Link</th>
+            <th>OK</th>
+            <th>App</th>
           </tr>
         </thead>
 
         <tbody id="datafromcsv">
           <tr>
+            <td></td><td></td><td></td>
             <td>Loading data from Google Sheets</td>
             <td>https://open-finance.data.anyoldserver.com/</td>
             <td>this page is loading your data from a Google based data source.</td>
@@ -76,7 +80,7 @@
     mark_active_columns: true,
     highlight_keywords: true,
     col_types: [
-      'string', 'string', 'string'
+      'string', 'string', 'string', 'string', 'string'
     ],
     extensions: [
       {name: 'sort'},
